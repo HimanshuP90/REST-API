@@ -3,8 +3,12 @@ const express = require('express');
 //set up express app
 const app = express();
 
-app.get('/', function(){
+app.get('/api', function(req, res){
 	console.log('GET request');
+	res.send({
+		firstName: "Himanshu",
+		lastName: "Pandey"
+	});
 });
 
 //listen for request
