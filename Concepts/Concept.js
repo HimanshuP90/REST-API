@@ -42,3 +42,12 @@ Mongoose:
 => Adds a layer of methods to easily save, edit,
 	retreive and delete data from mongodb.
 => Allows us to create our Models and Schemas easily.  
+
+Use MongoDB in Ubantu:
+
+$: mongo
+$: show dbs 
+$: use ninjago
+$: db.getCollectionNames()
+$: db.ninjas.find()
+$: db.ninjas.find().pretty()
