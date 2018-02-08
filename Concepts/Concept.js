@@ -21,3 +21,24 @@ REST Properties:
 	500 server error
 
 Todo: Create an API using Node.js, Express & MongoDB 
+
+----------------------------------------------------------
+
+Models:
+ => Models represent collections in MongoDB.
+ => User Model to represent a collection of Users.
+ => Ninja Model to represent a collection of Ninjas.
+
+ Schemas:
+ => Schemas define the structure of our objects
+
+ {
+ 	name: String,
+ 	rank: String.
+ 	availabilty: Boolean
+ }
+
+Mongoose:
+=> Adds a layer of methods to easily save, edit,
+	retreive and delete data from mongodb.
+=> Allows us to create our Models and Schemas easily.  
