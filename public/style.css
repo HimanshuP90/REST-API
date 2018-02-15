@@ -91,3 +91,20 @@ button{
     cursor: pointer;
 }
 button.false{display: none;}
+
+.nav .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
